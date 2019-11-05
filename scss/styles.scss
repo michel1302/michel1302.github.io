@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+// UTILITIES
+@import "utilities/custom-properties";
+
+// BASE STYLES
+@import "base/sections";
+@import "base/type-headings";
+@import "base/type";
+@import "base/grouping";
+@import "base/embedded";
+@import "base/forms";
+@import "base/tables";
+@import "base/print";
+
+// COMPONENTS
+@import "components/typography";
+
+// LAYOUTS
+@import "layouts/grids";

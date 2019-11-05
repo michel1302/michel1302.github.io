@@ -1,0 +1,169 @@
+:root {
+  --color-blue: #00a6e3;
+  --color-lilac: #e8e8e8;
+  --color-electric-blue: #0096db;
+  --color-concord: #7d7d7d;
+  --color-tangerine: #ffd100;
+  --color-dark-pastel-green: #00bd30;
+  --color-reno-sand: #a6660f;
+  --color-golden-yellow: #ffde00;
+
+  --color-black: #000;
+  --color-black-90: #1a1a1a;
+  --color-black-80: #333;
+  --color-black-70: #4d4d4d;
+  --color-black-60: #666;
+  --color-black-50: #808080;
+  --color-black-40: #999;
+  --color-black-30: #b3b3b3;
+  --color-black-20: #ccc;
+  --color-black-10: #e6e6e6;
+  --color-white: #fff;
+
+  // Cameroon flag
+  --color-tropical-rain-forest: #007a5e;
+  --color-lava: #ce1126;
+  --color-candlelight: #fcd116;
+
+  // Congo Basin Institute
+  --color-cadmium-red: #de001a;
+  --color-punga: #533910;
+  --color-chilean-fire: #fd7600;
+  --color-fern: #5a7f00;
+  --color-apple-green: #83b500;
+  --color-utah-crimson: #cd0047;
+  --color-mine-shaft: #333333;
+
+  // Okavango Delta Botswana
+  --color-celeste: #b8f7ff;
+  --color-denim: #3066b3;
+  --color-navy: #000570;
+  --color-porsche: #e09e57;
+  --color-cinnamon: #754000;
+  --color-turtle-green: #2b4000;
+  --color-hooker-green: #477369;
+  --color-chelsea-cucumber: #8fb054;
+  --color-marzipan: #f5db99;
+  --color-gin-fizz: #f7edc9;
+
+  // Halong Bay Vietnam
+  --color-verdun-green: #404a00;
+  --color-buttered-rum: #997d00;
+  --color-hot-toddy: #b37500;
+  --color-burnt-maroon: #450503;
+  --color-red-beech: #7d2e00;
+  --color-burnt-orange: #cc5203;
+  --color-crayon-orange: #ff6926;
+  --color-my-sin: #ffa84d;
+  --color-dandelion: #ffd95e;
+  --color-kournikova: #ffe870;
+
+  //  Provence France
+  --color-karry: #ffebd4;
+  --color-yourpink: #ffc4b8;
+  --color-brandy-rose: #b89187;
+  --color-hot-pink: #ff70bd;
+  --color-fuchsia: #c95ebd;
+  --color-finn: #5e2b57;
+  --color-cocoa-brown: #2b171f;
+  --color-cerulean: #009ede;
+  --color-deep-sky-blue: #00d1ff;
+  --color-pattens-blue: #def7fa;
+
+  // Santa Monica Mountains
+  --color-silk: #c1b3a7;
+  --color-zorba: #a89d91;
+  --color-saddle: #5f4d47;
+  --color-celery: #b6cb5e;
+  --color-dell: #496538;
+  --color-muddy-waters: #ad7a52;
+  --color-fawn: #e1ac6e;
+  --color-sandrift: #ab8979;
+  --color-celestial-blue: #4591de;
+  --color-maya-blue: #6dbef7;
+  --color-picton-blue: #5aa7de;
+  --color-waikawa-gray: #65748e;
+  --color-perfume: #beabdd;
+  --color-hippie-pink: #a94358;
+  --color-lavender-pink: #fdb2cd;
+  --color-azalea: #fbc0c1;
+
+  --font-family: Helvetica, Arial, sans-serif;
+  --font-family-alt: "Nunito", Helvetica, Arial, sans-serif;
+  --font-family-display: --font-family;
+  --font-family-system: -apple-system, BlinkMacSystemFont, "helvetica neue",
+    helvetica, Ubuntu, roboto, noto, segoe ui, arial, sans-serif;
+  --font-family-mono: Menlo, Consolas, Monaco, "Liberation Mono",
+    "Lucida Console", monospace;
+
+  --font-weight-thin: 100;
+  --font-weight-extra-light: 200;
+  --font-weight-light: 300;
+  --font-weight: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+  --font-weight-extra-bold: 800;
+  --font-weight-black: 900;
+
+  // Type scale major second
+  --text-scale-ratio: 1.125;
+
+  --font-size-xxxx-display: 4.624rem; //73px
+  --font-size-xxx-display: 4.11rem; //65px
+  --font-size-xx-display: 3.653rem; //58px
+  --font-size-x-display: 2.887rem; //46px
+  --font-size-display: 2.566rem; // 41px
+  --font-size-xxxx-large: 2.027rem; //36px;
+  --font-size-xxx-large: 1.802rem; //28px
+  --font-size-xx-large: 1.602rem; //25px
+  --font-size-x-large: 1.424rem; //22px
+  --font-size-large: 1.266rem; //20px
+  --font-size-medium: 1.125rem; //18px
+  --font-size: 1rem; //16px
+  --font-size-small: 0.889rem; // 14px
+  --font-size-x-small: 0.79rem; // 12px
+
+  // Line height
+  --line-height-text: 1.5; //150%
+  --line-height-display: 1.125; //112.5%
+  --line-height-alt: 1.25; //125%
+  --line-height: 1;
+
+  // Border radii
+
+  --border-radius-x-small: 0.25rem;
+  --border-radius-small: 0.5rem;
+  --border-radius-medium: 0.75rem;
+  --border-radius-large: 1rem;
+  --border-radius-circle: 50%;
+
+  // Border widths
+
+  --border-width-hairline: 1px;
+  --border-width-thin: 2px;
+  --border-width-thick: 4px;
+  --border: var(--border-width-hairline) solid var(--blue);
+  --border-thick-gold: var(--border-width-thick) solid var(--gold);
+
+  // Spacing
+
+  --max-width: 90rem;
+  --min-width: 60rem;
+  --spacing-x-small: 0.25rem;
+  --spacing-small: 0.5rem;
+  --spacing: 0.75rem;
+  --spacing-medium: 1rem;
+  --spacing-large: 1.5rem;
+  --spacing-xx-small: 0.125rem;
+  --spacing-x-large: 2rem;
+  --spacing-xx-large: 3rem;
+
+  // Breakpoints relative to 16px base font
+  --bp-x-small: 18.75em; //300px
+  --bp-small: 30em; //480px
+  --bp-medium: 48em; // 768px;
+  --bp-large: 64em; // 1024px
+  --bp-x-large: 75em; // 1200px;
+  --bp-xx-large: 87.5rem; //1400px;
+}

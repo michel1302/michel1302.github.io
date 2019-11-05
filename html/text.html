@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <title>Text-level semantics</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no" />
+    <link rel="stylesheet" href="../css/styles.css" />
+
+
+  </head>
+
+  <body>
+    <header>
+      <h1>Text-level semantics</h1>
+    </header>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">HTML Introduction</a></li>
+        <li><a href="embedded.html">Embedded Content</a></li>
+        <li><a href="grouping.html">Grouping Content Elements</a></li>
+        <li><a href="sections.html">Section Elements</a></li>
+        <li><a href="text.html">Text-level semantics Elements</a> </li>
+
+      </ul>
+    </nav>
+
+    <main>
+
+        <h2>Text-level Elements</h2>
+
+        <p><a href="https://html.spec.whatwg.org/multipage/text-level-semantics.html">https://html.spec.whatwg.org/multipage/text-level-semantics.html</a></p>
+
+
+        <pre><code>
+      &lt;a href=""&gt; &lt;/a&gt;
+      &lt;em&gt; &lt;/em&gt;
+      &lt;strong&gt; &lt;/strong&gt;
+      &lt;small&gt; &lt;/small&gt;
+      &lt;s&gt; &lt;/s&gt;
+      &lt;cite&gt; &lt;/cite&gt;
+      &lt;q&gt; &lt;/q&gt;
+      &lt;dfn&gt; &lt;/dfn&gt;
+      &lt;abbr title=""&gt; &lt;/abbr&gt;
+      &lt;rb&gt; &lt;/rb&gt;
+      &lt;rt&gt; &lt;/rt&gt;
+      &lt;rtc&gt; &lt;/rtc&gt;
+      &lt;rp&gt; &lt;/rp&gt;
+      &lt;data&gt; &lt;/data&gt;
+      &lt;time&gt; &lt;/time&gt;
+      &lt;code&gt; &lt;/code&gt;
+      &lt;var&gt; &lt;/var&gt;
+      &lt;samp&gt; &lt;/samp&gt;
+      &lt;kdb&gt; &lt;/kdb&gt;
+      &lt;sub&gt; &lt;/sub&gt;
+      &lt;sup&gt; &lt;/sup&gt;
+      &lt;i&gt; &lt;/i&gt;
+      &lt;b&gt; &lt;/b&gt;
+      &lt;u&gt; &lt;/u&gt;
+      &lt;mark&gt; &lt;/mark&gt;
+      &lt;bdi&gt; &lt;/bdi&gt;
+      &lt;bdo dir=""&gt; &lt;/bdo&gt;
+      &lt;span&gt; &lt;/span&gt;
+      &lt;br&gt;
+      &lt;wbr&gt; &lt;/wbr&gt;
+
+      </code></pre>
+
+      
+  <aside>
+      <h4 id=usage-summary><span class=secno>4.5.29</span> Usage summary<a href=#usage-summary class=self-link></a></h4>
+
+      <p><i>This section is non-normative.</i></p>
+    
+      <table><thead><tr><th>Element
+         <th>Purpose
+         <th>Example
+       <tbody><tr><td><code id=usage-summary:the-a-element><a href=#the-a-element>a</a></code>
+         <td>Hyperlinks
+         <td><pre class=example><code class='html'>Visit my <strong><c- p>&lt;</c-><c- f>a</c-> <c- e>href</c-><c- o>=</c-><c- s>&quot;drinks.html&quot;</c-><c- p>&gt;</c->drinks<c- p>&lt;/</c-><c- f>a</c-><c- p>&gt;</c-></strong> page.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-em-element><a href=#the-em-element>em</a></code>
+         <td>Stress emphasis
+         <td><pre class=example><code class='html'>I must say I <strong><c- p>&lt;</c-><c- f>em</c-><c- p>&gt;</c->adore<c- p>&lt;/</c-><c- f>em</c-><c- p>&gt;</c-></strong> lemonade.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-strong-element><a href=#the-strong-element>strong</a></code>
+         <td>Importance
+         <td><pre class=example><code class='html'>This tea is <strong><c- p>&lt;</c-><c- f>strong</c-><c- p>&gt;</c->very hot<c- p>&lt;/</c-><c- f>strong</c-><c- p>&gt;</c-></strong>.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-small-element><a href=#the-small-element>small</a></code>
+         <td>Side comments
+         <td><pre class=example><code class='html'>These grapes are made into wine. <strong><c- p>&lt;</c-><c- f>small</c-><c- p>&gt;</c->Alcohol is addictive.<c- p>&lt;/</c-><c- f>small</c-><c- p>&gt;</c-></strong></code></pre>
+    
+        <tr><td><code id=usage-summary:the-s-element><a href=#the-s-element>s</a></code>
+         <td>Inaccurate text
+         <td><pre class=example><code class='html'>Price: <strong><c- p>&lt;</c-><c- f>s</c-><c- p>&gt;</c->£4.50<c- p>&lt;/</c-><c- f>s</c-><c- p>&gt;</c-></strong> £2.00!</code></pre>
+    
+        <tr><td><code id=usage-summary:the-cite-element><a href=#the-cite-element>cite</a></code>
+         <td>Titles of works
+         <td><pre class=example><code class='html'>The case <strong><c- p>&lt;</c-><c- f>cite</c-><c- p>&gt;</c->Hugo v. Danielle<c- p>&lt;/</c-><c- f>cite</c-><c- p>&gt;</c-></strong> is relevant here.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-q-element><a href=#the-q-element>q</a></code>
+         <td>Quotations
+         <td><pre class=example><code class='html'>The judge said <strong><c- p>&lt;</c-><c- f>q</c-><c- p>&gt;</c->You can drink water from the fish tank<c- p>&lt;/</c-><c- f>q</c-><c- p>&gt;</c-></strong> but advised against it.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-dfn-element><a href=#the-dfn-element>dfn</a></code>
+         <td>Defining instance
+         <td><pre class=example><code class='html'>The term <strong><c- p>&lt;</c-><c- f>dfn</c-><c- p>&gt;</c->organic food<c- p>&lt;/</c-><c- f>dfn</c-><c- p>&gt;</c-></strong> refers to food produced without synthetic chemicals.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-abbr-element><a href=#the-abbr-element>abbr</a></code>
+         <td>Abbreviations
+         <td><pre class=example><code class='html'>Organic food in Ireland is certified by the <strong><c- p>&lt;</c-><c- f>abbr</c-> <c- e>title</c-><c- o>=</c-><c- s>&quot;Irish Organic Farmers and Growers Association&quot;</c-><c- p>&gt;</c->IOFGA<c- p>&lt;/</c-><c- f>abbr</c-><c- p>&gt;</c-></strong>.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-ruby-element><a href=#the-ruby-element>ruby</a></code>, <code id=usage-summary:the-rt-element><a href=#the-rt-element>rt</a></code>, <code id=usage-summary:the-rp-element><a href=#the-rp-element>rp</a></code>
+         <td>Ruby annotations
+         <td><pre class=example><code class='html'><strong><c- p>&lt;</c-><c- f>ruby</c-><c- p>&gt;</c-> OJ <c- p>&lt;</c-><c- f>rp</c-><c- p>&gt;</c->(<c- p>&lt;</c-><c- f>rt</c-><c- p>&gt;</c->Orange Juice<c- p>&lt;</c-><c- f>rp</c-><c- p>&gt;</c->)<c- p>&lt;/</c-><c- f>ruby</c-><c- p>&gt;</c-></strong></code></pre>
+    
+        <tr><td><code id=usage-summary:the-data-element><a href=#the-data-element>data</a></code>
+         <td>Machine-readable equivalent
+         <td><pre class=example><code class='html'>Available starting today! <strong><c- p>&lt;</c-><c- f>data</c-> <c- e>value</c-><c- o>=</c-><c- s>&quot;UPC:022014640201&quot;</c-><c- p>&gt;</c->North Coast Organic Apple Cider<c- p>&lt;/</c-><c- f>data</c-><c- p>&gt;</c-></strong></code></pre>
+    
+        <tr><td><code id=usage-summary:the-time-element><a href=#the-time-element>time</a></code>
+         <td>Machine-readable equivalent of date- or time-related data
+         <td><pre class=example><code class='html'>Available starting on <strong><c- p>&lt;</c-><c- f>time</c-> <c- e>datetime</c-><c- o>=</c-><c- s>&quot;2011-11-18&quot;</c-><c- p>&gt;</c->November 18th<c- p>&lt;/</c-><c- f>time</c-><c- p>&gt;</c-></strong>!</code></pre>
+    
+        <tr><td><code id=usage-summary:the-code-element><a href=#the-code-element>code</a></code>
+         <td>Computer code
+         <td><pre class=example><code class='html'>The <strong><c- p>&lt;</c-><c- f>code</c-><c- p>&gt;</c->fruitdb<c- p>&lt;/</c-><c- f>code</c-><c- p>&gt;</c-></strong> program can be used for tracking fruit production.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-var-element><a href=#the-var-element>var</a></code>
+         <td>Variables
+         <td><pre class=example><code class='html'>If there are <strong><c- p>&lt;</c-><c- f>var</c-><c- p>&gt;</c->n<c- p>&lt;/</c-><c- f>var</c-><c- p>&gt;</c-></strong> fruit in the bowl, at least <strong><c- p>&lt;</c-><c- f>var</c-><c- p>&gt;</c->n<c- p>&lt;/</c-><c- f>var</c-><c- p>&gt;</c-></strong>÷2 will be ripe.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-samp-element><a href=#the-samp-element>samp</a></code>
+         <td>Computer output
+         <td><pre class=example><code class='html'>The computer said <strong><c- p>&lt;</c-><c- f>samp</c-><c- p>&gt;</c->Unknown error -3<c- p>&lt;/</c-><c- f>samp</c-><c- p>&gt;</c-></strong>.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-kbd-element><a href=#the-kbd-element>kbd</a></code>
+         <td>User input
+         <td><pre class=example><code class='html'>Hit <strong><c- p>&lt;</c-><c- f>kbd</c-><c- p>&gt;</c->F1<c- p>&lt;/</c-><c- f>kbd</c-><c- p>&gt;</c-></strong> to continue.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-sub-and-sup-elements><a href=#the-sub-and-sup-elements>sub</a></code>
+         <td>Subscripts
+         <td><pre class=example><code class='html'>Water is H<strong><c- p>&lt;</c-><c- f>sub</c-><c- p>&gt;</c->2<c- p>&lt;/</c-><c- f>sub</c-><c- p>&gt;</c-></strong>O.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-sub-and-sup-elements-2><a href=#the-sub-and-sup-elements>sup</a></code>
+         <td>Superscripts
+         <td><pre class=example><code class='html'>The Hydrogen in heavy water is usually <strong><c- p>&lt;</c-><c- f>sup</c-><c- p>&gt;</c->2<c- p>&lt;/</c-><c- f>sup</c-><c- p>&gt;</c-></strong>H.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-i-element><a href=#the-i-element>i</a></code>
+         <td>Alternative voice
+         <td><pre class=example><code class='html'>Lemonade consists primarily of <strong><c- p>&lt;</c-><c- f>i</c-><c- p>&gt;</c->Citrus limon<c- p>&lt;/</c-><c- f>i</c-><c- p>&gt;</c-></strong>.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-b-element><a href=#the-b-element>b</a></code>
+         <td>Keywords
+         <td><pre class=example><code class='html'>Take a <strong><c- p>&lt;</c-><c- f>b</c-><c- p>&gt;</c->lemon<c- p>&lt;/</c-><c- f>b</c-><c- p>&gt;</c-></strong> and squeeze it with a <strong><c- p>&lt;</c-><c- f>b</c-><c- p>&gt;</c->juicer<c- p>&lt;/</c-><c- f>b</c-><c- p>&gt;</c-></strong>.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-u-element><a href=#the-u-element>u</a></code>
+         <td>Annotations
+         <td><pre class=example><code class='html'>The mixture of apple juice and <strong><c- p>&lt;</c-><c- f>u</c-> <c- e>class</c-><c- o>=</c-><c- s>&quot;spelling&quot;</c-><c- p>&gt;</c->eldeflower<c- p>&lt;/</c-><c- f>u</c-><c- p>&gt;</c-></strong> juice is very pleasant.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-mark-element><a href=#the-mark-element>mark</a></code>
+         <td>Highlight
+         <td><pre class=example><code class='html'>Elderflower cordial, with one <strong><c- p>&lt;</c-><c- f>mark</c-><c- p>&gt;</c->part<c- p>&lt;/</c-><c- f>mark</c-><c- p>&gt;</c-></strong> cordial to ten <strong><c- p>&lt;</c-><c- f>mark</c-><c- p>&gt;</c->part<c- p>&lt;/</c-><c- f>mark</c-><c- p>&gt;</c-></strong>s water, stands a<strong><c- p>&lt;</c-><c- f>mark</c-><c- p>&gt;</c->part<c- p>&lt;/</c-><c- f>mark</c-><c- p>&gt;</c-></strong> from the rest.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-bdi-element><a href=#the-bdi-element>bdi</a></code>
+         <td>Text directionality isolation
+         <td><pre class=example><code class='html'>The recommended restaurant is <strong><c- p>&lt;</c-><c- f>bdi</c-> <c- e>lang</c-><c- o>=</c-><c- s>&quot;&quot;</c-><c- p>&gt;</c->My Juice Café (At The Beach)<c- p>&lt;/</c-><c- f>bdi</c-><c- p>&gt;</c-></strong>.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-bdo-element><a href=#the-bdo-element>bdo</a></code>
+         <td>Text directionality formatting
+         <td><pre class=example><code class='html'>The proposal is to write English, but in reverse order. &quot;Juice&quot; would become &quot;<strong><c- p>&lt;</c-><c- f>bdo</c-> <c- e>dir</c-><c- o>=</c-><c- s>rtl</c-><c- p>&gt;</c->Juice<c- p>&lt;/</c-><c- f>bdo</c-><c- p>&gt;</c-></strong>&quot;&gt;</code></pre>
+    
+        <tr><td><code id=usage-summary:the-span-element><a href=#the-span-element>span</a></code>
+         <td>Other
+         <td><pre class=example><code class='html'>In French we call it <strong><c- p>&lt;</c-><c- f>span</c-> <c- e>lang</c-><c- o>=</c-><c- s>&quot;fr&quot;</c-><c- p>&gt;</c->sirop de sureau<c- p>&lt;/</c-><c- f>span</c-><c- p>&gt;</c-></strong>.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-br-element><a href=#the-br-element>br</a></code>
+         <td>Line break
+         <td><pre class=example><code class='html'>Simply Orange Juice Company<strong><c- p>&lt;</c-><c- f>br</c-><c- p>&gt;</c-></strong>Apopka, FL 32703<strong><c- p>&lt;</c-><c- f>br</c-><c- p>&gt;</c-></strong>U.S.A.</code></pre>
+    
+        <tr><td><code id=usage-summary:the-wbr-element><a href=#the-wbr-element>wbr</a></code>
+         <td>Line breaking opportunity
+         <td><pre class=example><code class='html'>www.simply<strong><c- p>&lt;</c-><c- f>wbr</c-><c- p>&gt;</c-></strong>orange<strong><c- p>&lt;</c-><c- f>wbr</c-><c- p>&gt;</c-></strong>juice.com</code></pre>
+    
+      </table>
+  </aside>
+  </body>
+
+</html>
